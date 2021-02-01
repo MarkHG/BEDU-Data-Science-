@@ -3,7 +3,7 @@ library(mongolite)
 
 # Conexión a la base de datos
 con <- mongo("match", url =
-               "mongodb+srv://MarcoBEDU:313110902@cluster0.zavzu.mongodb.net/match_games")
+               "mongodb+srv://MarcoBEDU:<password>@cluster0.zavzu.mongodb.net/match_games")
 
 # Prueba de conexión a la base de datos
 
